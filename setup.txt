@@ -1,0 +1,21 @@
+Every time you switch to this machine:
+
+1) Get latest code
+- Git Bash:
+  cd /c/Users/stox0/SQL-2026
+  git pull
+  code .
+
+2) Connect to DB
+- Command Prompt:
+  cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+  mysql -u root -p maxes_course
+
+3) Work and close normally
+- Edit .sql files in C:\Users\stox0\SQL-2026 only.
+- End of day in Git Bash:
+  cd /c/Users/stox0/SQL-2026
+  git status
+  git add .
+  git commit -m "SQL work for <date/topic>"
+  git push
