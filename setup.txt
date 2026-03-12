@@ -14,7 +14,7 @@ Every time you switch to this machine:
 3) Work and close normally
 - Edit .sql files in C:\Users\stox0\SQL-2026 only.
 - End of day in Git Bash:
-  cd /c/Users/stox0/SQL-2026
+  cd /c/Users/stox0/SQL
   git status
   git add .
   git commit -m "SQL work for <date/topic>"
