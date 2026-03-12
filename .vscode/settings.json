@@ -28,6 +28,20 @@
       "name": "talently",
       "database": "talently",
       "username": "root"
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Businesses",
+      "username": "root",
+      "database": "sharp_schedule"
     }
   ]
 }
