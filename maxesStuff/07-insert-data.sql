@@ -12,6 +12,7 @@ INSERT INTO employers (
     is_hiring
   )
 VALUES ('MATH INC', 'Number Street', 3.26, FALSE);
+
 INSERT INTO employers (
     company_name,
     company_address,
@@ -19,7 +20,9 @@ INSERT INTO employers (
     is_hiring
   )
 VALUES ('SCHOOL INC', 'TRI-C Street', 2.87, TRUE);
-INSERT INTO conversations (user_name, employer_name, message, date_sent)
+
+
+INSERT INTO conversations (user_name, employer_name, messages, date_sent)
 VALUES (
     'Xavier Stone',
     'Learning Inc',

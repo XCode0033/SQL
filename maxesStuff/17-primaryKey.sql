@@ -16,7 +16,8 @@ CREATE TABLE employers (
 );
 CREATE TABLE conversations(
   id INT PRIMARY KEY AUTO_INCREMENT,
-  user_id INT,
-  employer_id INT,
+  user_id VARCHAR(300),
+  employer_id VARCHAR(300),
   message TEXT NOT NULL
 );
+

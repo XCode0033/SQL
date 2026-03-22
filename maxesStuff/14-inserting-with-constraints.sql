@@ -10,6 +10,7 @@ VALUES('stox03', 'hohns company');
 -- )
 INSERT INTO employers (company_name, yearly_revenue, company_address)
 VALUES('John home', 100, '1234street')
-ALTER TABLE users
-MODIFY -- I did it correctly. Username and employer name should have a value.
-  --To test with the previous ones just delete a category that needs a value and remove it from values too. Otherwise the program will focus on another empty value
+-- I did it correctly. Username and employer name should have a value.
+-- To test with the previous ones just delete a category that needs a value and remove it from values too. Otherwise the program will focus on another empty value
+
+

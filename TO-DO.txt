@@ -1,0 +1,10 @@
+
+
+03/22/26 -Sunday
+Figured out why the data isn't updated on the tables in talently database. 
+It's cause #17 primary keys deleted and reacreated the tables 
+so i need to insert the new data.
+
+
+03/23/26 - Monday
+If i didn't do sql stuff for school yesterday do it today.

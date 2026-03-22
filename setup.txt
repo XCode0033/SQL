@@ -9,7 +9,13 @@ Every time you switch to this machine:
 2) Connect to DB
 - Command Prompt:
   cd "C:\Program Files\MySQL\MySQL Server 8.0\bin"
+
+  
   mysql -u root -p maxes_course
+
+  for mac just
+  mysql -u root -p
+
 
 3) Work and close normally
 - Edit .sql files in C:\Users\stox0\SQL-2026 only.
@@ -19,3 +25,7 @@ Every time you switch to this machine:
   git add .
   git commit -m "SQL work for <date/topic>"
   git push
+
+
+  /usr/local/mysql-8.0.45-macos15-arm64/bin/mysql
+  Applications/MySQLWorkbench.app/Contents/MacOS/mysql
