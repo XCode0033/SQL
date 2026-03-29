@@ -11,7 +11,7 @@
       "port": 3306,
       "driver": "MySQL",
       "name": "maxes_course",
-      "database": "talently",
+      "database": "sales",
       "username": "root",
       "askForPassword": true
     },

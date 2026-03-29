@@ -1,0 +1,2 @@
+DELETE FROM sales
+WHERE id IN (14, 15, 16);
