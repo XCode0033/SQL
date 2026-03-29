@@ -9,3 +9,4 @@ INSERT INTO time_blocks(day_of_week, title, start_time, end_time)VALUES
 ('Thursday', 'Study',      '01:00:00', '04:00:00'),
 ('Friday',   'Work',       '08:30:00', '05:00:00'),
 ('Saturday', 'Work',       '10:45:00', '07:15:00');
+
