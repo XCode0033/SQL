@@ -1,7 +1,9 @@
 
-SELECT * FROM sales 
-WHERE date_created BETWEEN '2021-11-01' AND '2022-05-01';
+-- SELECT * FROM sales 
+-- WHERE date_created BETWEEN '2021-11-01' AND '2022-05-01';
 
 
-SELECT * FROM sales
-where volume BETWEEN 1000 AND 2000;
+-- SELECT * FROM sales
+-- where volume BETWEEN 1000 AND 2000;
+
+

@@ -8,7 +8,7 @@
 -- order by volume DESC
 -- limit 3;
 
-SELECT * FROM sales
-ORDER BY volume DESC
-limit 5
-offset 3;
+-- SELECT * FROM sales
+-- ORDER BY volume DESC
+-- limit 5
+-- offset 3; -- out of 10 results page one shows 7 results, page 2 shows 3, but just the 3 that werent present. No need to study for now.

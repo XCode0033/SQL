@@ -3,5 +3,9 @@
 -- WHERE date_fulfilled IS NOT NULL; -- use is / is not for booleans and not nulls or nulls
 
 
+-- SELECT * FROM sales
+-- WHERE date_fulfilled - date_created <= 5;
+
+
 SELECT * FROM sales
-WHERE date_fulfilled - date_created <= 5;
+WHERE EXTRACT(day from date_fulfilled - date_created) <= 5; -- WORKS IF DATA STORED IN TIMESTAMPS
