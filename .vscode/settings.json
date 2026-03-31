@@ -10,10 +10,9 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
-      "name": "maxes_course",
-      "database": "sales",
+      "name": "Businesses",
       "username": "root",
-      "askForPassword": true
+      "database": "sharp_schedule"
     },
     {
       "mysqlOptions": {
@@ -25,9 +24,10 @@
       "server": "localhost",
       "port": 3306,
       "driver": "MySQL",
-      "name": "Businesses",
+      "name": "maxes_course",
+      "database": "shop_practice",
       "username": "root",
-      "database": "sharp_schedule"
+      "askForPassword": true
     }
   ]
 }

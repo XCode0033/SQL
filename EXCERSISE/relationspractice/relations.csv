@@ -1,0 +1,7 @@
+"u.id","first_name","last_name","email","address_id","a.id","street","house_number","city_name"
+1,"Max","Schwarz","max@test.com",2,2,"Berlin Street","10","Berlin"
+2,"Manuel","Lorenz","manu@test.com",3,3,"New York Street","12","New York"
+3,"Julie","Barnes","julie@barnes.com",1,1,"London Street","8A","London"
+4,"Max","Schwarz","max@test.com",2,2,"Berlin Street","10","Berlin"
+5,"Manuel","Lorenz","manu@test.com",3,3,"New York Street","12","New York"
+6,"Julie","Barnes","julie@barnes.com",1,1,"London Street","8A","London"

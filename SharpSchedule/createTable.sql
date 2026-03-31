@@ -23,7 +23,7 @@ CREATE TABLE users (
   email VARCHAR(300) NOT NULL UNIQUE,
   password VARCHAR(300) NOT NULL,
   full_name VARCHAR(100) NOT NULL,
-  created_at DATETIME NOT NULL DEFAULt CURRENT_TIMESTAMP
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
   
 )
 
@@ -32,23 +32,22 @@ CREATE TABLE activities (
   user_id INT NOT NULL,
   name VARCHAR(100) NOT NULL,
   UNIQUE(user_id, name),
-  CONSTRAINT (fk_activities_id) FOREIGN KEY (activity_id) REFERENCES users(user_id);
+  CONSTRAINT fk_activities_id
+  FOREIGN KEY (user_id) REFERENCES users(user_id);
 )
 
 
 CREATE TABLE sessions (
-  id INT AUTO_INCREMENT PRIMARY KEY,
+  session_id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT NOT NULL,
-  session_id INT NOT NULL,
   activity_id INT NOT NULL,
-  title VARCHAR(200), NOT NULL,
+  title VARCHAR(200) NOT NULL,
   start_time DATETIME NOT NULL,
   end_time DATETIME NOT NULL,
-  status ENUM('planned', 'completed','skipped' NOT NULL DEFAULT 'unplanned'),
+  status ENUM('planned', 'completed','skipped','unplanned') NOT NULL DEFAULT 'planned' ,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-
-  FOREIGN KEY (user_id) REFERENCES users(user_id),
-  FOREIGN KEY (activity_id) REFERENCES activities(user_id)
-  CONSTRAINT (fk_session_id) FOREIGN KEY session_id REFERENCES users(user_id);
-
+  CONSTRAINT fk_sessions_userId
+    FOREIGN KEY (user_id) REFERENCES users(user_id),
+  CONSTRAINT fk_sessions_activityId
+    FOREIGN KEY (activity_id) REFERENCES activities(activity_id)
 )
